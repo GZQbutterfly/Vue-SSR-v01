@@ -11,6 +11,14 @@ module.exports = merge(baseConfig, {
     entry: {
         'main': path.join(__dirname, '../src/pages/index.js')
     },
+    module: {
+        rules: [
+            {
+                test: /\.js$/,
+                use: 'babel-loader?cacheDirectory'
+            },
+        ]
+    },
     plugins: [
         new HtmlWebpackPlugin({
             template: path.join(__dirname, '../src/pages/index.html'),

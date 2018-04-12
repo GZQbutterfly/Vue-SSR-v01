@@ -1,3 +1,7 @@
+
+import './app/app'
+
+
 if (process.env.NODE_ENV == 'development') {
     console.log('development')
 } else if (process.env.NODE_ENV == 'production') {

@@ -19,7 +19,7 @@
     
     npm i -D  babel-plugin-transform-vue-jsx  babel-helper-vue-jsx-merge-props babel-plugin-syntax-jsx
 
-   ## babel
+   ### babel
     npm i -D  babel-loader babel-core 
     npm i -D  babel-preset-env
     npm i -D  babel-runtime  babel-polyfill
@@ -33,5 +33,5 @@
     npm i -D postcss-px2rem  autoprefixer
 
 
-   ## node
+   ### node
     npm i -s cross-env  // cross-env NODE_ENV=development &&
