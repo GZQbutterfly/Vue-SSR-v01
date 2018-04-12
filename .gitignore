@@ -1,0 +1,10 @@
+node_modules/
+dist/
+cache/
+buildCache/
+npm-debug.log.?**
+npm-debug.log
+*.dll
+.idea
+*.DS_Store
+*.vscode
